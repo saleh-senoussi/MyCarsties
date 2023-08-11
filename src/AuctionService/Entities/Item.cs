@@ -1,5 +1,8 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace AcutionService.Entities;
 
+[Table("Items")]
 public class Item
 {
     public Guid Id { get; set; }
